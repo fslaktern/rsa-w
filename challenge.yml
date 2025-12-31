@@ -1,0 +1,25 @@
+name: "RSA...W?"
+author: "fslaktern"
+category: crypto
+difficulty: beginner
+description: |-
+  JULENISSEN er på oppdrag i julen og må kunne levere gaver til alle snille barn. Selv om gaven er stor eller liten, skal den komme trygt frem til barna.
+
+  Med en liten modifikasjon på krypteringsalgoritmen kan JULENISSEN endelig sende selv de aller største gavene! Har du vært snill og kan få en gave?
+
+type: standard
+
+connection_protocol: tcp
+connection_port: 9999
+
+flags:
+  - {
+    type: "static",
+    content: "JUL{st0re_g4ver_0g_st0re_s1kkerhetshull}",
+    data: "case_insensitive"
+  }
+
+files:
+  - handout/rsa-w.py
+
+state: visible

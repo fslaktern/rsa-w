@@ -1,0 +1,9 @@
+services:
+  rsa_w:
+    build: .
+    container_name: rsa_w_service
+    ports:
+      - "9999:9999"
+    environment:
+      FLAG: "JUL{st0re_g4ver_0g_st0re_s1kkerhetshull}"
+    restart: unless-stopped
